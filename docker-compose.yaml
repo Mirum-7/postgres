@@ -13,3 +13,7 @@ services:
 volumes:
   postgres_data:
     driver: local
+
+networks:
+  postgres-network:
+    external: true
